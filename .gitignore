@@ -1,4 +1,4 @@
-node_modules# Node.js dependencies
+node_modules
 /node_modules/
 
 # Expo files
