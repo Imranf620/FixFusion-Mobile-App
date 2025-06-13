@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Front-end",
-    "slug": "Front-end",
+    "name": "Fix Fusion",
+    "slug": "Fix Fusion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -33,10 +33,13 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "owner": "imranf620",
+    "projectId": "1f44c973-d31b-494a-8a02-e9e5efa3034f"
   }
 }
