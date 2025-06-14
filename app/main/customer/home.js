@@ -200,7 +200,7 @@ export default function CustomerHome() {
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
             <Text style={styles.sectionTitle}>Recent Requests</Text>
-            <TouchableOpacity onPress={() => router.push('/customer/requests')}>
+            <TouchableOpacity onPress={() => router.push('main/customer/requests')}>
               <Text style={styles.viewAllText}>View All</Text>
             </TouchableOpacity>
           </View>

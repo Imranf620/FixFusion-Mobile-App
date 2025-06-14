@@ -24,6 +24,15 @@ export default function CustomerHomeLayout() {
           ),
         }}
       />
+       <Tabs.Screen
+        name="bids"
+        options={{
+          title: 'Bids',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="chatbubble-ellipses-outline" size={size} color={color} />
+          ),
+        }}
+      />
       <Tabs.Screen
         name="chat"
         options={{

@@ -23,6 +23,7 @@ export const api = async (endpoint, method = 'GET', data = null, token = null , 
 
     return responseData;
   } catch (error) {
+    console.log('error',error)
     throw error;
   }
 };
